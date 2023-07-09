@@ -6,8 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px;
-    background-color: aqua;
+    padding: 5px;
 }
 .menus{
     display: flex;
@@ -38,9 +37,10 @@
     text-align: center;
 }
 .banner-title{
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 60px;
     margin-bottom: 50px;
+
 }
 .banner-des{
     font-size: 25px;
@@ -48,29 +48,30 @@
 }
 /* service section */
 .service-container{
-    height: 500px;
+    height: 600px;
+    background-color: #f4f7fa;
 }
 .service-header{
-    padding: 50px;
-    font-size: 50px;
+    padding: 80px;
+    font-size: 40px;
     text-align: center;
 }
 .service-boxes-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 .service-box{
     width: 300px;
-    padding: 60px;
-    height: 200px;
-    background-color: aquamarine;
+    padding: 35px;
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px gray;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px gray;
 }
 .icon{
+    font-size: 40px;
+    color: tomato;
     margin-top: 30px;
 }
 .box-title{
@@ -78,4 +79,83 @@
 }
 .box-description{
     margin-top: 20px;
+    font-weight: 200;
+}
+/* seo package section */
+.package-container{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+    background-color: #f4f7fa;
+}
+.package-header{
+    height: 40px;
+    padding: 30px;
+    padding-bottom:0px;
+    font-size: 40px;
+    text-align: center;
+}
+.box-container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.boxs{
+    padding: 30px;
+    border: 1px solid black;
+    width: 305px;
+    height: 430px;
+    line-height: 30px;
+}
+.boxss{
+    border: 1px solid #f65a5b;
+}
+.box-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.box-amount{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.box-mon-amount{
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+.boxs li{
+    list-style: none;
+    line-height: 40px;
+}
+.box-des{
+    margin-bottom: 35px;
+}
+.box-top-right-icon{
+    font-size: 50px;
+    float: right;
+    opacity: 10%;
+}
+.box-container .box-top-right-icon:hover{
+    opacity: 30%;
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding:15px;
+    text-transform: uppercase;
+    background-color: #0ecad4;
+    box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.5s;
+    box-shadow: none;
+}
+.btn-2nd-box{
+    background-color: #f65a5b;
 }
