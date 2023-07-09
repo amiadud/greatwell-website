@@ -3,20 +3,26 @@
     padding: 0;
 }
 .nav-container{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 5px;
+    position: fixed;
+    background-color: #f4f7fa;
+    box-shadow: 0px 2px 5px rgb(129, 126, 126);
+
 }
 .menus{
     display: flex;
     gap: 5px;
 }
 .menus-items{
-    padding: 10px;
+    padding: 20px 10px;
     list-style: none;
 }
-.menus-items > a{
+.menus-items a{
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-decoration: none;
