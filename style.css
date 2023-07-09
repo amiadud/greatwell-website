@@ -11,7 +11,6 @@
     position: fixed;
     background-color: #f4f7fa;
     box-shadow: 0px 2px 5px rgb(129, 126, 126);
-
 }
 .menus{
     display: flex;
@@ -36,16 +35,17 @@
     align-items: center;
     justify-content: center;
     height: 500px;
-    background-image: linear-gradient(to right, rgba(6, 143, 153, 0.644), rgb(46, 124, 197),  rgb(121, 77, 192));
+    background-image: linear-gradient(to right, rgba(6, 143, 153, 0.644), rgb(46, 124, 197), rgb(121, 77, 192));
 }
 .banner-info{
+    margin-top: 40px;
     color: white;
     text-align: center;
 }
 .banner-title{
     font-weight: bolder;
     font-size: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
 }
 .banner-des{
@@ -78,6 +78,7 @@
     box-shadow: 1px 2px 10px gray;
 }
 .service-box-title{
+    font-size: 20px;
     color:#f65a5b;
     margin-top: 20px;
 }
