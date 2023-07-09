@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: aqua;
+}
+.menus{
+    display: flex;
+    gap: 5px;
+}
+.menus-items{
+    padding: 10px;
+    list-style: none;
+}
+.menus-items > a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menus-items > a:hover{
+    color: chocolate;
+}
+/* banner section */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: linear-gradient(to right, rgba(6, 143, 153, 0.644), rgb(46, 124, 197),  rgb(121, 77, 192));
+}
+.banner-info{
+    color: white;
+    text-align: center;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.banner-des{
+    font-size: 25px;
+    font-weight: 200;
+}
+/* service section */
+.service-container{
+    height: 500px;
+}
+.service-header{
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+.service-boxes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.service-box{
+    width: 300px;
+    padding: 60px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+}
+.icon{
+    margin-top: 30px;
+}
+.box-title{
+    margin-top: 20px;
+}
+.box-description{
+    margin-top: 20px;
+}
